@@ -2,12 +2,16 @@
 ## Github basic cheats
 To check the git version
 `` git --version ``
+
 Git cloning
 `` git clone <repository path> ``
+
 Convert a local directory into a repository
  `` git init ``
+ 
 View your remote repositories
  `` git remote -v ``
+ 
 * create a branch
   * git checkout -b <name-of-branch>
 * switch to a branch

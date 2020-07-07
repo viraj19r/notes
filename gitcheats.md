@@ -33,6 +33,7 @@
 * git merge [branch name] = This command merges the specified branch’s history into the current branch.
 * git branch -d [name]  = Remove selected branch, if it is already merged into any other.
 -D instead of -d forces deletion
+* git branch -d -r [name] = to delete from local as well as remote(github)
 
 
 

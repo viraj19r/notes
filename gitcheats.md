@@ -1,4 +1,7 @@
-* git --version
+# Github Cheats
+## Github basic cheats
+To check the git version
+`` git --version ``
 * git clone <repository path>
 * Convert a local directory into a repository
   * git init

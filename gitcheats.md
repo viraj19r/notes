@@ -24,7 +24,7 @@
   * git checkout .
 * Unstage all changes that have been added to the staging area
   * git reset .
-* git push --all
+* git push --all  or  git push .
 * git push [variable name] master = This command sends the committed changes of master branch to your remote repository.
 *  git push [variable name] [branch]
 * git branch name 
@@ -35,7 +35,9 @@
 -D instead of -d forces deletion
 * git branch -d -r [name] = to delete from local as well as remote(github)
 
+* git branch --list =  it will show all branches
 
 
   
 [more commands](https://www.edureka.co/blog/git-commands-with-example/)
+ 

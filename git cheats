@@ -24,7 +24,7 @@
   * git checkout .
 * Unstage all changes that have been added to the staging area
   * git reset .
-* git push --all  or  git push .
+* git push --all
 * git push [variable name] master = This command sends the committed changes of master branch to your remote repository.
 *  git push [variable name] [branch]
 * git branch name 
@@ -33,9 +33,12 @@
 * git merge [branch name] = This command merges the specified branch’s history into the current branch.
 * git branch -d [name]  = Remove selected branch, if it is already merged into any other.
 -D instead of -d forces deletion
-* git branch -d -r [name] = to delete from local as well as remote(github)
 
 * git branch --list =  it will show all branches
+* git fetch -p = shows last deleted branch
+* git branch –D branch-name (delete from local)
+* git branch -d -r [name] = to delete from local as well as remote(github) =not worked for remote
+* git push origin :branch-name (delete from remote)
 
 
   

@@ -21,6 +21,9 @@ View differences
 Add commit
 `` git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT" ``
 
+Revert changes
+`` git checkout -- . ``
+
 ## Add Changes
 Add a specific file or folder
 `` git add <file-name OR folder-name> ``

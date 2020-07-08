@@ -1,7 +1,6 @@
 `` `${var name} ` `` this is javascript template literal
 ### Shadowed Variables
-when we declare a variable globally, after that local variable(with same name as global variable has) declared inside a function is shadowed variable.
-It creates a new variable on a different scope - this variables does not overwrite or remove the global variable by the way - both co-exist
+A local variable,declared in a function, that also exists globally.
 
 ### Indirect and direct function execution
 It can be confusing to see that there seem to be two ways of executing a function:

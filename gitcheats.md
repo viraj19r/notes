@@ -90,8 +90,11 @@ The soft reset won’t alter the working directory and the index.As a consequenc
 `` git reset --soft HEAD^      (going back to the commit before HEAD) ``
 
 `` git reset --soft HEAD~2     (going back two commits before HEAD) ``
+
 [More on head reset](https://devconnected.com/how-to-git-reset-to-head/#:~:text=To%20hard%20reset%20files%20to,option%20and%20specify%20the%20HEAD.&text=The%20purpose%20of%20the%20%E2%80%9Cgit,before%20HEAD%20and%20so%20on).)
 
+## Git stash command
+[Stash command](https://devconnected.com/how-to-git-stash-changes/)
 
 [more commands](https://www.edureka.co/blog/git-commands-with-example/)
  

@@ -74,13 +74,23 @@ Delete branch from remote
 ### Hard reset to head
 To hard reset files to HEAD on Git, use the “git reset” command with the “–hard” option and specify the HEAD
 ``  git reset --hard HEAD       (going back to HEAD) ``
+
 ``  git reset --hard HEAD^      (going back to the commit before HEAD) ``
+
 `` git reset --hard HEAD~2     (going back two commits before HEAD)  ``
+
     
 To undo a hard reset on Git, use the “git reset” command with the “–hard” option and specify “HEAD@{1}”
 `` git reset --hard HEAD@{1} ``
 
+### Soft reset to head
+The soft reset won’t alter the working directory and the index.As a consequence, the changes done between the original HEAD and the current HEAD will be staged.
+`` git reset --soft HEAD       (going back to HEAD) ``
 
+`` git reset --soft HEAD^      (going back to the commit before HEAD) ``
+
+`` git reset --soft HEAD~2     (going back two commits before HEAD) ``
+[More on head reset](https://devconnected.com/how-to-git-reset-to-head/#:~:text=To%20hard%20reset%20files%20to,option%20and%20specify%20the%20HEAD.&text=The%20purpose%20of%20the%20%E2%80%9Cgit,before%20HEAD%20and%20so%20on).)
 
 
 [more commands](https://www.edureka.co/blog/git-commands-with-example/)

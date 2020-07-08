@@ -69,6 +69,18 @@ Remove selected branch, if it is already merged into any other.
 Delete branch from remote
 `` git push origin :branch-name ``
 
+## Reset to Head
+ revert the changes(delete ot modified) that just made and go back to the files that we had
+### Hard reset to head
+To hard reset files to HEAD on Git, use the “git reset” command with the “–hard” option and specify the HEAD
+``` git reset --hard HEAD       (going back to HEAD)
+    git reset --hard HEAD^      (going back to the commit before HEAD)
+    git reset --hard HEAD~2     (going back two commits before HEAD)  ```
+    
+To undo a hard reset on Git, use the “git reset” command with the “–hard” option and specify “HEAD@{1}”
+`` git reset --hard HEAD@{1} ``
+
+
 
 
 [more commands](https://www.edureka.co/blog/git-commands-with-example/)

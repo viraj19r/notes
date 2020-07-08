@@ -96,5 +96,5 @@ The soft reset won’t alter the working directory and the index.As a consequenc
 ## Git stash command
 [Stash command](https://devconnected.com/how-to-git-stash-changes/)
 
-[more commands](https://www.edureka.co/blog/git-commands-with-example/)
+* [more commands](https://www.edureka.co/blog/git-commands-with-example/)
  

@@ -35,16 +35,20 @@ To push a specific branch
 Push all branches
 `` git push --all ``
 
+Sends the committed changes of master branch to your remote repository
+`` git push [variable name] master ``
+`` git push [variable name] [branch] ``
+
 ## Github branch cheats
 
-Create a branch:
+Create and switch to newly created branch:
 `` git checkout -b <name-of-branch> ``
 
-Switch to a branch
+Switch to a branch :
 `` git checkout <name of branch> ``
 
-Creates and switch to newly created branch
-`` git branch -b name ``
+Creates branch :
+`` git branch name ``
 
 Show all branches
 `` git branch --list ``
@@ -52,19 +56,20 @@ Show all branches
 Merges the specified branch’s history into the current branch
 `` git merge [branch name] ``
 
+Delete all changes in branch
+`` git checkout . ``
 
-* Delete all changes in branch
-  * git checkout .
-* git push [variable name] master = This command sends the committed changes of master branch to your remote repository.
-*  git push [variable name] [branch]
-* git branch name 
-* git checkout branch name =creates a branch
-* git branch -d [name]  = Remove selected branch, if it is already merged into any other.
+Switch branch
+`` git checkout <branch name> ``
+
+Remove selected branch, if it is already merged into any other.
 -D instead of -d forces deletion
-* git fetch -p = shows last deleted branch
-* git branch –D branch-name (delete from local)
-* git branch -d -r [name] = to delete from local as well as remote(github) =not worked for remote
-* git push origin :branch-name (delete from remote)
+`` git branch -d [name] ``
+
+Delete branch from remote
+`` git push origin :branch-name ``
+
+
 
 [more commands](https://www.edureka.co/blog/git-commands-with-example/)
  

@@ -72,3 +72,8 @@ nan null undefined treated as false/falsy
 ### Statement vs Expression
 expression is right side part of equal sign
 statement is that which cannot be written in right side of an equal sign(if statement or complete part, left and right part of equal sign
+### some shorthands and tricks
+#### How can we convert or coerce a truthy and falsy value to a real boolean ?
+we use double exclamation mark !! before the truthy or falsy value(basically it is double negation !!)
+#### we can assign a default value to a variable using or || operator
+see the video 95

@@ -40,7 +40,7 @@ Why?
 
 Because you just throw the name of the function in there but you don't give any other information to JavaScript. It basically doesn't know what to do with that name ("Should I run that when a click occurs? After a certain amount of time? I don't know...") and hence JavaScript kind of ignores this statement.
 ### parseInt() ------ convert a string into number(inbuilt javascript function).
-### parseInt() ------ convert a string/number into float(inbuilt javascript function).
+### parseFloat() ------ convert a string/number into float(inbuilt javascript function).
 ### varname.tostring() ------ convert varname to string (inbuilt javascript function).
 ### + operator in javascript supports both strings and numbers(3 + '3' = 33)
 

@@ -60,3 +60,11 @@ to check type
 or we can add the script tag at the end of html code
 ### html async attribute
 <script src = " " async >   </script> it is same as defer but the difference is that the script executes right away once it is downloaded, it does not wait for the html code to parse
+### falsy or truthy values
+If we pass any other value than boolean in if condition then javascript forces it make boolean this values are called truthy or falsy values
+0 is considered as false/falsy
+other no than 0 including negative no are considered as true/truthy
+empty string is treated as false/falsy
+any other string (including "false" treated as true/truthy
+empty object and array and all other object and array treated as true/truthy
+nan null undefined treated as false/falsy

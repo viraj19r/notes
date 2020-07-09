@@ -39,3 +39,24 @@ alert('Do something else...');
 Why?
 
 Because you just throw the name of the function in there but you don't give any other information to JavaScript. It basically doesn't know what to do with that name ("Should I run that when a click occurs? After a certain amount of time? I don't know...") and hence JavaScript kind of ignores this statement.
+### parseInt() ------ convert a string into number(inbuilt javascript function).
+### parseInt() ------ convert a string/number into float(inbuilt javascript function).
+### varname.tostring() ------ convert varname to string (inbuilt javascript function).
+### + operator in javascript supports both strings and numbers(3 + '3' = 33)
+
+## Arrays
+`` let a = []; `` wil create an array
+a.push() method is used to push elments array with existing elements.
+### undefined
+Default value of uninitilized variable
+### NaN(not a number) type == number
+if we multiply("hi" * 3) we get error nan
+### null
+not a default value, to reset/clear a variable we can assign the variable with null
+### typeof keyword
+to check type
+### html defer attribute
+<script src = " " defer >   </script> when we put this code inside the head tag then this script is downloaded but get in role after parsing the html code(due to defer attribute)
+or we can add the script tag at the end of html code
+### html async attribute
+<script src = " " async >   </script> it is same as defer but the difference is that the script executes right away once it is downloaded, it does not wait for the html code to parse

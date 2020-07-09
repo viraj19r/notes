@@ -68,3 +68,7 @@ empty string is treated as false/falsy
 any other string (including "false" treated as true/truthy
 empty object and array and all other object and array treated as true/truthy
 nan null undefined treated as false/falsy
+
+### Statement vs Expression
+expression is right side part of equal sign
+statement is that which cannot be written in right side of an equal sign(if statement or complete part, left and right part of equal sign

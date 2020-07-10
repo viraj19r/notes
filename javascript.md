@@ -79,3 +79,9 @@ we use double exclamation mark !! before the truthy or falsy value(basically it 
 see the video 95
 
 #### use ``` "use strict" ``` in start of an line or function to enable strict mode.
+
+## there are two types of values
+primitive values - strings, number, boolean, null,undefined and symbols (stored in memory- normally in stack)
+refrence values  - all other objects( more expensive to create) {generally stored in heap}
+## Garbage collector
+it is built in browsers engine and it periodically checks the browser memory/heaps for unused objects(objects without references/without addresses which are stored in variables).garbage collector removes these objects from the heap memory

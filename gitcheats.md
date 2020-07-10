@@ -104,3 +104,21 @@ The soft reset won’t alter the working directory and the index.As a consequenc
 when we edit the remote branch and push from local then there is error we can ovecome it by doing
  `` git pull `` = it will update the local with the changes in the remote.
 or we can forcefully push as ``` git push -f origin branch name ```
+
+## user name (DVCS username for commits)
+### To set your global username/email configuration
+Open the command line.
+Set your username:
+``` git config --global user.name "FIRST_NAME LAST_NAME" ``` and recheck ``` git config -- global user.name ```
+Set your email address:
+``` git config --global user.email "MY_NAME@example.com" ``` recheck ``` git config -- global user.email ```
+``` git config --global user.password "your password" ``` (optional)
+### To set repository-specific username/email configuration:
+From the command line, change into the repository directory.
+Set your username:
+``` git config user.name "FIRST_NAME LAST_NAME" ```
+Set your email address:
+``` git config user.email "MY_NAME@example.com" ```
+Verify your configuration by displaying your configuration file:
+``` cat .git/config ```
+``` git config user.password "your password" ``` (optional)

@@ -101,3 +101,6 @@ The soft reset won’t alter the working directory and the index.As a consequenc
 
 * [more commands](https://www.edureka.co/blog/git-commands-with-example/)
  
+when we edit the remote branch and push from local then there is error we can ovecome it by doing
+ `` git pull `` = it will update the local with the changes in the remote.
+or we can forcefully push as ``` git push -f origin branch name ```

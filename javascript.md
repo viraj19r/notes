@@ -77,3 +77,5 @@ statement is that which cannot be written in right side of an equal sign(if stat
 we use double exclamation mark !! before the truthy or falsy value(basically it is double negation !!)
 #### we can assign a default value to a variable using or || operator
 see the video 95
+
+#### use ``` "use strict" ``` in start of an line or function to enable strict mode.

@@ -20,6 +20,9 @@ View differences
 
 Add commit
 `` git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT" ``
+ 
+Add and commit in one command
+`` git commit -am “Message” ``
 
 Revert changes
 `` git checkout -- . ``
@@ -32,7 +35,7 @@ Add everything
 `` git add . ``
 
 ## Github push cheats
-To push a specific branch
+To push on a specific branch
 `` git push <remote> <name-of-branch> `` (use remote = origin)
 
 Push all branches
@@ -72,6 +75,27 @@ Remove selected branch, if it is already merged into any other.
 Delete branch from remote
 `` git push origin :branch-name ``
 
+To view both remote-tracking branches and local branches, run the command:
+`` git branch -a ``
+
+To rename a branch, run the command
+`` git branch -m OLD-BRANCH-NAME NEW-BRANCH-NAME ``
+ Alternative:
+`` git branch --move OLD-BRANCH-NAME NEW-BRANCH-NAME ``
+
+Push the newly created branch on github :
+`` git push origin [name_of_your_new_branch] ``
+
+Make a new branch and then push(first push) it to remote(with tracking):
+`` git push -u origin <branch> ``
+       if we are not sharing the branch with others then we call push all
+       `` git push --all -u ``
+       
+Add a new remote for your branch :
+`` $ git remote add [name_of_your_remote] [name_of_your_new_branch] ``
+### [more on branches ](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+### [more from freecodecamp](https://forum.freecodecamp.org/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222)
+###[more from medium](https://medium.com/@paulrohan/everday-git-commands-you-will-use-as-a-developer-e84b4a327036)
 ## Reset to Head
  revert the changes(delete ot modified) that just made and go back to the files that we had
 ### Hard reset to head
@@ -122,3 +146,6 @@ Set your email address:
 Verify your configuration by displaying your configuration file:
 ``` cat .git/config ```
 ``` git config user.password "your password" ``` (optional)
+
+
+

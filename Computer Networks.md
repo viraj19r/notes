@@ -15,5 +15,7 @@ Ports 1024-49151- Registered Port -These can be registered for services with the
 
 Ports 49152-65535– These are used by client programs and you are free to use these in client programs. When a Web browser connects to a web server the browser will allocate itself a port in this range. Also known as ephemeral ports.
 
+- Every connection that is connected to internet has a number of ports open on it. Ports are virtual door that allows the inflow and outflow of data packets. Without the opening of ports, no data communication can take place on a particular system.Typically, each client establishes a new connection over the network, a randomly chosen port number gets open.
+
 # TCP Socket
 A connection between two computers uses a socket.So a socket is the combination of IP address plus port

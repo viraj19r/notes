@@ -8,12 +8,12 @@
 - To determine what protocol incoming traffic should be directed to, different port numbers are used. They allow a single host with a single IP address to run network services.
 ## Port Numbers
 - The port number is a 16-bit unique port identifier within a ip address
-- A port number uses 16 bits and so can therefore have a value from 0 to 65535.
-Port numbers 0-1023 – Well known ports. These are allocated to server services by the Internet Assigned Numbers Authority (IANA). e.g Web servers normally use port 80 and SMTP servers use port 25 .
+A port number uses 16 bits and so can therefore have a value from 0 to 65535.
+Port numbers 0-1023 – Well known ports/system ports. These are allocated to server services by the Internet Assigned Numbers Authority (IANA). e.g Web servers normally use port 80 and SMTP servers use port 25 .
 
-Ports 1024-49151- Registered Port -These can be registered for services with the IANA and should be treated as semi-reserved. User written programs should not use these ports.
+Ports 1024-49151- Registered Port/user ports -These can be registered for services with the IANA and should be treated as semi-reserved. User written programs should not use these ports.
 
-Ports 49152-65535– These are used by client programs and you are free to use these in client programs. When a Web browser connects to a web server the browser will allocate itself a port in this range. Also known as ephemeral ports.
+Ports 49152-65535– These are used by client programs and we are free to use these in client programs. When a Web browser connects to a web server the browser will allocate itself a port in this range. Also known as ephemeral ports.
 
 - Every connection that is connected to internet has a number of ports open on it. Ports are virtual door that allows the inflow and outflow of data packets. Without the opening of ports, no data communication can take place on a particular system.Typically, each client establishes a new connection over the network, a randomly chosen port number gets open.
 

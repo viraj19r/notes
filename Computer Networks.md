@@ -17,5 +17,6 @@ Ports 49152-65535– These are used by client programs and we are free to use th
 
 - Every connection that is connected to internet has a number of ports open on it. Ports are virtual door that allows the inflow and outflow of data packets. Without the opening of ports, no data communication can take place on a particular system.Typically, each client establishes a new connection over the network, a randomly chosen port number gets open.
 
+### [port no assignment(adding or changing port no)](http://www.fte.com/WebHelpII/80211/Content/Configuration_Settings/Port_Assignments/Adding_or_Changing_Port_Assignments.htm)
 # TCP Socket
 A connection between two computers uses a socket.So a socket is the combination of IP address plus port

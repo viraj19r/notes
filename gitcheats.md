@@ -9,6 +9,12 @@ Git cloning
 Convert a local directory into a repository
  `` git init ``
  
+Add the origin remote repo
+`` git remote add origin (link of repo) ``
+
+Set the master branch to upstream
+`` git push -u origin master ``
+
 View your remote repositories
  `` git remote -v ``
  

@@ -9,7 +9,7 @@ Git cloning
 Convert a local directory into a repository
  `` git init ``
  
-Add the origin remote repo
+Add the origin remote repo(when a local repo is already created and clone the same local repo with remote)
 `` git remote add origin (link of repo) ``
 
 Set the master branch to upstream

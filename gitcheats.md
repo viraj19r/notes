@@ -3,7 +3,7 @@
 To check the git version
 `` git --version ``
 
-Git cloning
+Git cloning(clone the whole remote repo, also creates a folder named same as the repo name)
 `` git clone <repository path> ``
 
 Convert a local directory into a repository
